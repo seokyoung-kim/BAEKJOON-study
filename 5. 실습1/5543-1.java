@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// 배열을 이용한 문제 풀이
+
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
