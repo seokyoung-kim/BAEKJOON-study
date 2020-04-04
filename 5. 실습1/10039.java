@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
+
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
+		// 배열에 넣는 방법
 		int[] a = new int[5];
-
+		
 		for (int i = 0; i < 5; i++) {
 			a[i] = sc.nextInt();
 
