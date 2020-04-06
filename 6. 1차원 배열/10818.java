@@ -13,7 +13,7 @@ public class Main {
 			a[i] = sc.nextInt();
 		}
 
-		// 최솟값
+		// 최솟값 계산
 		int max = a[0];
 		for (int i = 0; i < n; i++) {
 			if (a[i] > max) {
@@ -21,7 +21,7 @@ public class Main {
 			}
 		}
 
-		// 최댓값
+		// 최댓값 계산
 		int min = a[0];
 		for (int i = 0; i < n; i++) {
 			if (a[i] < min) {
